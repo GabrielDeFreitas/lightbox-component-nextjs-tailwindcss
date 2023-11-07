@@ -60,7 +60,7 @@ export default function Home() {
     <>
       <main className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
         <section className='w-full min-h-screen flex items-start justify-center py-6 px-3'>
-          <div className='grid grid-cols-3 gap-3'>
+          <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
             {
               listImages.map((img, index) =>(
                 <ThumbImage

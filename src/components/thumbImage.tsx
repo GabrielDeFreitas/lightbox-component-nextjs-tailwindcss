@@ -16,7 +16,7 @@ export function ThumbImage({srcImage, onClick} : ThumbImageProps) {
       height={200}
       quality={20}
       alt="image"
-      className="hover:scale-110 transition-all ease-linear cursor-pointer"
+      className="object-none h-96 w-96 hover:scale-110 transition-all ease-linear cursor-pointer"
     />
     </button>
   )
