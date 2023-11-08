@@ -85,3 +85,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - The lightbox is rendered only if `isOpen` is true.
 - In the lightbox, images are displayed in an enlarged size, and the user can navigate between them using the "next" and "previous" arrows.
 - A button is provided to close the lightbox.
+
+## `thumbImage.tsx`
+
+This file contains the ThumbImage component, which is used to render image thumbnails on the main page.
+
+### `Imports`
+- Import the Image module from Next.js.
+- Define the ThumbImageProps interface to specify the properties accepted by the component.
+ 
+### `ThumbImage component:`
+
+- This component receives the `srcImage` (the image to be displayed) and onClick (the function to be executed when the user clicks on the thumbnail) as properties.
+- The component renders a thumbnail of the image as a button.
+- The thumbnail is displayed using the `Image` component from Next.js, with defined dimensions, quality, and hover effects.
+
+In summary, this code creates a page that displays image thumbnails and allows the user to zoom in on the images in a lightbox when the thumbnails are clicked. The user can navigate between the images in the lightbox and close it when desired.
