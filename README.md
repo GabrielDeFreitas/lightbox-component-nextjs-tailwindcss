@@ -1,5 +1,7 @@
 # 🚀 Lightbox Component
 
+This code creates a page that displays image thumbnails and allows the user to zoom in on the images in a lightbox when the thumbnails are clicked. The user can navigate between the images in the lightbox and close it when desired.
+
 Deploy Vercel - [LightBox Component](https://lightbox-component-nextjs-tailwindcss.vercel.app/) <br>
 
 Photos Unsplash - [Nubelson Fernandes](https://unsplash.com/pt-br/@nublson)
